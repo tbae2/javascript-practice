@@ -9,7 +9,7 @@ var fibonnaciEven = function(maxNumber){
 		num2 += num1;
 		//faster way to set the previous number in the looped calculation
 		num1 = num2 - num1;
-	//determine if the number is even 
+		//determine if the number is even 
 		if(num2 % 2 === 0){
 			sum += num2;
 		}
